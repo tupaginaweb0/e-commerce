@@ -1,0 +1,407 @@
+body {
+    background: #EDEDED;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*CABECERA - MENÚ */
+.cabecera {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    margin-left: -26px;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.menu_alura {
+    display: flex;
+    background: white;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 70px;
+    margin-top: 10px
+}
+
+.buscar {
+    background: #EDEDED;
+    border: none;
+    border-radius: 22px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    width: 350px;
+}
+
+#search {
+    display: block;
+    height: 40px;
+    color: lightgray;
+    margin-left: -33px;
+    margin-top: 30px;
+    width: 20px;
+}
+
+/* VER PRODUCTO - STARS WARS 3*/
+
+.img-sw3 {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .4);
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 900px; 
+}
+
+.img-SW3 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 100px;
+    width: 200px; 
+}
+
+.nombre3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: -170px;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 550px;
+}
+
+.comprar {
+    align-items: center;
+    background: #2A7AE4;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-left: 250px;
+    margin-top: 20px;
+    padding-left: 70px;
+    text-align: center;
+    width: 200px;
+}
+
+
+.img-SW1, .img-SW2, .img-SW4, .img-SW5, .img-SW6 {
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 240px;
+    width: 150px;
+}
+
+/* RODAPIE DE CONTACTO - IMAGEN - PÁRRAFOS - FONDO DEL FORMULARIO*/
+.form {
+    background: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    height: 400px;
+    margin-bottom: -20px;
+    margin-left: -6px;
+    margin-top: 300px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;   
+}
+
+.form-mensaje {
+    text-align: justify;
+    margin-top: 0px;
+}
+
+.hable-nosotros {
+    color: #565658;
+    margin-left: 540px;
+    text-decoration: none;
+}
+
+.hable-con-nosotros {
+    color: #565658;
+    margin-left: 540px; 
+    margin-top: -185px;
+    padding-top: 179px;
+    text-decoration: none;
+}
+
+.img-alurageek {
+    margin-left: 100px;   
+    margin-top: 45px; 
+    width: 190px;
+}
+
+/* RODAPIE DE CONTACTO - FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -245px;
+    padding: 20px;
+}
+
+.enviar-mensaje {
+    color: #565658;;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.nombre {
+    border: none;
+    border-radius: 14px;
+    margin-top: -10px;
+    padding: 14px;
+    outline: none;
+    width: 80%;
+}
+
+.mensaje {
+    border: none;
+    border-radius: 14px;
+    margin-top: 25px;
+    padding: 14px;
+    outline: none;
+    width: 80%;
+}
+
+.enviar {
+    background: #2A7AE4;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+/* Dispositivos móviles  - MOBILES DE BAJA RESOLUCION*/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+        width: 990px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+        width: 1100px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .img-sw3 {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .img-SW1, .img-SW2, .img-SW4, .img-SW5, .img-SW6 {
+        margin-top: 170px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 990px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 400px;
+    }
+    .formulario {
+        margin-left: 600px;
+        width: 300px;
+    }
+}
+
+/* Dispositivos móviles - MEDIA RESOLUCION Y ALTA RESOLUCION */
+@media screen and (min-width: 320px) and (max-width: 530px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+        width: 1400px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .img-sw3 {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .img-SW1, .img-SW2, .img-SW4, .img-SW5, .img-SW6 {
+        margin-top: 170px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -5px;
+        margin-top: 350px;
+        width: 1400px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros {
+        margin-left: 400px;
+    }
+    .hable-con-nosotros {
+        margin-left: 230px;
+    }
+    .formulario {
+        margin-left: 700px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .menu {
+        width: 999px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 1px;
+        width: 1400px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .img-sw3 {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .img-SW1, .img-SW2, .img-SW4, .img-SW5, .img-SW6 {
+        margin-top: 170px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 300px;
+        width: 1400px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros {
+        margin-left: 400px;
+    }
+    .hable-con-nosotros {
+        margin-left: 230px;
+    }
+    .formulario {
+        margin-left: 700px;
+        width: 200px;
+    }
+}
+
+/* Baja resolución, Tablets (Landscape/Horizontal)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        margin-left: -28px;
+        width: 1300px;
+    }
+    .menu_alura {
+        width: 1300px;
+    }
+    .img-sw3 {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .img-SW1, .img-SW2, .img-SW4, .img-SW5, .img-SW6 {
+        margin-top: 170px;
+    }
+    .form {
+        margin-left: -9px;
+        width: 1300px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-con-nosotros {
+        margin-left: 300px;
+    }
+    .hable-nosotros {
+        margin-left: 330px;
+    }
+    .formulario {
+        margin-left: 650px;
+        width: 200px;
+    }
+}

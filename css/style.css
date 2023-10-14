@@ -1,0 +1,1759 @@
+body {
+    background: #0f2133;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*CABECERA - MENÚ */
+.cabecera {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    margin-left: -26px;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.menu_alura {
+    display: flex;
+    background: white;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 70px;
+    margin-top: 10px
+}
+
+.buscar {
+    background: #EDEDED;
+    border: none;
+    border-radius: 22px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    width: 350px;
+}
+
+#search {
+    display: block;
+    height: 40px;
+    color: lightgray;
+    margin-left: -33px;
+    margin-top: 30px;
+    width: 20px;
+}
+
+/* BOTÓN - INCIAR SESIÓN */
+.boton {
+    background: blue;
+    border: 2px solid #2A7AE4;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 170px;
+}
+
+.btn_link {
+    text-decoration: none;
+    color: white;
+    width: 170px;
+}
+
+/*CONTAINER - IMAGEN BANNER Y TITULOS DESCUENTOS*/
+.container {
+    display: flex;
+    width: 1430px;
+    height: 300px;
+}
+
+.imagen-banner {
+    margin-left: -20px;
+    margin-top: -15px;
+    width: 100%;
+}
+
+.imagen-principal {
+    height: auto;
+    width: 100%;
+}
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: -180px;
+}
+
+.descripcion {
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+ /* BOTÓN - VER CONSOLAS*/
+.btn {
+    background: blue;
+    border: 2px solid #2A7AE4;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 170px;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+    width: 170px;
+}
+
+/* SECCIÓN 1 - STAR WARS */
+.section-starwars1 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 190px;
+    width: 250px;
+}
+
+.star-wars {
+    color: lightcoral;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+
+.star-wars1 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px; 
+}
+
+.producto1 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio1 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.ver-producto1 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+/* BOTÓN PARA VER TODOS LOS PRODUCTOS */
+.btn-vertodo {
+    background: blue;
+    border: 2px solid #2A7AE4;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    margin-left: 1080px;
+    margin-top: -10px;
+    width: 120px;
+}
+
+.flecha {
+    color: white;
+    text-decoration: none;
+    width: 120px;
+}
+
+/* SECCIÓN 1 - STAR WARS2*/
+.section-starwars2 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: -355px;
+    width: 250px;
+}
+
+.star-wars2 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.producto2 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio2 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.ver-producto2 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 1 - STAR WARS3*/
+.section-starwars3 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 350px;
+    margin-left: 900px;
+    margin-top: -355px;
+    width: 250px;
+}
+
+.star-wars3 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.producto3 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio3 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.ver-producto3 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 1 - STAR WARS4*/
+.section-starwars4 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.star-wars4 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.producto4 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio4 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.ver-producto4 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 1 - STAR WARS5*/
+.section-starwars5 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: -355px;
+    width: 250px;
+}
+
+.star-wars5 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.producto5 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio5 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.ver-producto5 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 1 - STAR WARS6*/
+.section-starwars6 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 350px;
+    margin-left: 900px;
+    margin-top: -355px;
+    width: 250px;
+}
+
+.star-wars6 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.producto6 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio6 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.ver-producto6 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/*SECCIÓN 2 - CONSOLAS1*/
+.section-consolas1 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 100px;
+    margin-top: 190px;
+    width: 250px;
+}
+
+.consolas {
+    color: lightcoral;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -100px;  
+}
+
+.consolas1 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.producto-1 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio-1 {
+    color: white;
+    margin-left: 100px;   
+}
+
+._producto1 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/*SECCIÓN 2 - CONSOLAS2*/
+.section-consolas2 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 500px;
+    margin-top: -370px;
+    width: 250px;
+}
+
+.consolas2 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.producto-2 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio-2 {
+    color: white;
+    margin-left: 100px;
+}
+
+._producto2 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/*SECCIÓN 2 - CONSOLAS3*/
+.section-consolas3 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 900px;
+    margin-top: -370px;
+    width: 250px;
+}
+
+.consolas3 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.producto-3 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio-3 {
+    color: white;
+    margin-left: 100px;
+}
+
+._producto3 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none 
+}
+
+/* SECCIÓN - CONSOLA4*/
+.section-consolas4 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 360px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 250px;
+}
+
+.consolas4 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.producto-4 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px; 
+}
+
+.precio-4 {
+    color: white;
+    margin-left: 100px;
+}
+
+._producto4 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none 
+}
+
+/*SECCIÓN 2 - CONSOLAS5*/
+.section-consolas5 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 360px;
+    margin-left: 500px;
+    margin-top: -370px;
+    width: 250px;
+}
+
+.consolas5 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.producto-5 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio-5 {
+    color: white;
+    margin-left: 100px; 
+}
+
+._producto5 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/*SECCIÓN 2 - CONSOLAS6*/
+.section-consolas6 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 360px;
+    margin-left: 900px;
+    margin-top: -370px;
+    width: 250px;
+}
+
+.consolas6 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.producto-6 {
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px; 
+}
+
+.precio-6 {
+    color: white;
+    margin-left: 100px; 
+}
+
+._producto6 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none 
+}
+
+/* SECCIÓN 3 - DIVERSOS1*/
+.section-diversos1{
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 100px;
+    margin-top: 190px;
+    width: 250px;
+}
+
+.diversos {
+    color: lightcoral;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -100px;  
+}
+
+.diversos1 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.producto_1 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio_1 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.-producto_1 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 3 - DIVERSOS2*/
+.section-diversos2{
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 500px;
+    margin-top: -370px;
+    width: 250px;  
+}
+
+.diversos2 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.producto_2 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio_2 { 
+    color: white;
+    margin-left: 100px;  
+}
+
+.-producto_2 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 3 - DIVERSOS3*/
+.section-diversos3{
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 900px;
+    margin-top: -373px;
+    width: 250px;  
+}
+
+.diversos3 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.producto_3 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.precio_3 {
+    color: white;
+    margin-left: 100px;  
+    margin-top: -15px; 
+}
+
+.-producto_3 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 3 - DIVERSOS4*/
+.section-diversos4{
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 250px;
+}
+
+.diversos4 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.producto_4 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.precio_4 {
+    color: white;
+    margin-left: 100px;
+    margin-top: -15px;   
+}
+
+.-producto_4 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+/* SECCIÓN 3 - DIVERSOS5*/
+.section-diversos5 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 365px;
+    margin-left: 500px;
+    margin-top: -370px;
+    width: 250px;
+}
+
+.diversos5 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.producto_5 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px; 
+}
+
+.precio_5 {
+    color: white;
+    margin-left: 100px;
+    margin-top: -15px; 
+}
+
+.-producto_5 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none 
+}
+
+/* SECCIÓN 3 - DIVERSOS6*/
+.section-diversos6 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 370px;
+    margin-left: 900px;
+    margin-top: -375px;
+    width: 250px;
+}
+
+.diversos6 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.producto_6 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px; 
+}
+
+.precio_6 {
+    color: white;
+    margin-left: 100px; 
+    margin-top: 30px;
+}
+
+.-producto_6 {
+    color: lightsalmon;
+    margin-left: 80px;
+    margin-top: 100px;
+    text-decoration: none 
+}
+
+/* SECCIÓN 4 - DEPORTES1 */
+.section-deportes1 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 380px;
+    margin-left: 100px;
+    margin-top: 180px;
+    width: 250px;
+}
+
+.deportes {
+    color: lightcoral;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -100px;
+}
+
+.deportes1 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px; 
+}
+
+.deportes-producto1 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.deportes-precio_1 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.deportes-verproducto1 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 4 - DEPORTES2*/
+.section-deportes2 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 380px;
+    margin-left: 500px;
+    margin-top: -385px;
+    width: 250px;
+}
+
+.deportes2 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.deportes-producto2 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.deportes-precio_2 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.deportes-verproducto2{
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 4 - DEPORTES3*/
+.section-deportes3 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 380px;
+    margin-left: 900px;
+    margin-top: -385px;
+    width: 250px;
+}
+
+.deportes3 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.deportes-producto3 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.deportes-precio_3 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.deportes-verproducto3{
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 4 - DEPORTES4 */
+.section-deportes4 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 380px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 250px;
+}
+
+.deportes {
+    color: lightcoral;
+    font-size: 30px;
+    margin-left: -10px;
+    margin-top: -100px;
+}
+
+.deportes4 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px; 
+}
+
+.deportes-producto4 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.deportes-precio_4 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.deportes-verproducto4 {
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 4 - DEPORTES5*/
+.section-deportes5 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 380px;
+    margin-left: 500px;
+    margin-top: -385px;
+    width: 250px;
+}
+
+.deportes5 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.deportes-producto5 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.deportes-precio_5 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.deportes-verproducto5{
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+/* SECCIÓN 4 - DEPORTES6*/
+.section-deportes6 {
+    border: 3px solid lightgray;
+    display: block;
+    height: 380px;
+    margin-left: 900px;
+    margin-top: -385px;
+    width: 250px;
+}
+
+.deportes6 {
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.deportes-producto6 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.deportes-precio_6 {
+    color: white;
+    margin-left: 100px;   
+}
+
+.deportes-verproducto6{
+    color: lightsalmon;
+    margin-left: 80px;
+    text-decoration: none
+}
+
+
+/* RODAPIE DE CONTACTO - IMAGEN - PÁRRAFOS - FONDO DEL FORMULARIO*/
+.form {
+    background: #EDEDED;
+    font-size: 20px;
+    font-weight: bold;
+    height: 400px;
+    margin-bottom: -20px;
+    margin-left: -6px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;   
+}
+
+.form-mensaje {
+    text-align: justify;
+    margin-top: 0px;
+}
+
+.hable-nosotros {
+    color: #565658;
+    margin-left: 540px;
+    text-decoration: none;
+}
+
+.hable-con-nosotros {
+    color: #565658;
+    margin-left: 540px; 
+    margin-top: -185px;
+    padding-top: 179px;
+    text-decoration: none;
+}
+
+.img-alurageek {
+    margin-left: 100px;   
+    margin-top: 45px; 
+    width: 190px;
+}
+
+/* RODAPIE DE CONTACTO - FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -245px;
+    padding: 20px;
+}
+
+.enviar-mensaje {
+    color: #565658;;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.nombre {
+    border: none;
+    border-radius: 14px;
+    margin-top: -10px;
+    padding: 14px;
+    outline: none;
+    width: 80%;
+}
+
+.mensaje {
+    border: none;
+    border-radius: 14px;
+    margin-top: 25px;
+    padding: 14px;
+    outline: none;
+    width: 80%;
+}
+
+.enviar {
+    background: #2A7AE4;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+/* Dispositivos móviles  - MOBILES DE BAJA RESOLUCION*/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+        width: 700px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .boton {
+        background: blue;
+        border: 2px solid #2A7AE4;
+        border-radius: 12px;
+        color: white;
+        height: 60px;
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .titulo, .descripcion, .btn {
+        margin-left: 100px;
+    }
+    .btn-vertodo {
+        margin-left: 500px;
+        margin-top: -50px;
+    }
+    .section-starwars1 {
+        margin-left: 80px;
+    }
+    .section-starwars2 {
+        margin-left: 460px;
+    }
+    .section-starwars3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-starwars4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -350px;
+    }
+    .section-starwars5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-starwars6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -355px;   
+    }
+    .section-consolas1 {
+        margin-left: 80px;
+    }
+    .section-consolas2 {
+        margin-left: 460px;
+    }
+    .section-consolas3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-consolas4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;
+    }
+    .section-consolas5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    } 
+    .section-consolas6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;   
+    }
+    .diversos {
+        margin-left: -10px;
+    }
+    .section-diversos1 {
+        margin-left: 80px;
+    }
+    .section-diversos2 {
+        margin-left: 460px;
+    }
+    .section-diversos3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-diversos4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;
+    }
+    .section-diversos5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .precio_5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+    .-producto_5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .section-diversos6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -373px;   
+    }
+    .precio_6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .-producto_6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .deportes {
+        margin-left: -10px;
+    }
+    .section-deportes1 {
+        margin-left: 80px;
+    }
+    .section-deportes2 {
+        margin-left: 460px;
+    }
+    .section-deportes3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-deportes4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -387px;
+    }
+    .section-deportes5 {
+        margin-left: 80px;
+        margin-top: 40px; 
+    }
+    .section-deportes6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -382px;  
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 900px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 280px;
+    }
+    .formulario {
+        margin-left: 530px;
+        width: 300px;
+    }
+}
+
+
+/* Dispositivos móviles - MEDIA RESOLUCION Y ALTA RESOLUCION */
+@media screen and (min-width: 320px) and (max-width: 530px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+        width: 990px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .boton {
+        background: blue;
+        border: 2px solid #2A7AE4;
+        border-radius: 12px;
+        color: white;
+        height: 60px;
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .titulo, .descripcion, .btn {
+        margin-left: 100px;
+    }
+    .btn-vertodo {
+        margin-left: 650px;
+    }
+    .section-starwars1 {
+        margin-left: 80px;
+    }
+    .section-starwars2 {
+        margin-left: 460px;
+    }
+    .section-starwars3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-starwars4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -350px;
+    }
+    .section-starwars5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-starwars6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -355px;   
+    }
+    .section-consolas1 {
+        margin-left: 80px;
+    }
+    .section-consolas2 {
+        margin-left: 460px;
+    }
+    .section-consolas3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-consolas4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;
+    }
+    .section-consolas5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    } 
+    .section-consolas6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;   
+    }
+    .diversos {
+        margin-left: -10px;
+    }
+    .section-diversos1 {
+        margin-left: 80px;
+    }
+    .section-diversos2 {
+        margin-left: 460px;
+    }
+    .section-diversos3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-diversos4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;
+    }
+    .section-diversos5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .precio_5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+    .-producto_5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .section-diversos6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -373px;   
+    }
+    .precio_6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .-producto_6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .deportes {
+        margin-left: -10px;
+    }
+    .section-deportes1 {
+        margin-left: 80px;
+    }
+    .section-deportes2 {
+        margin-left: 460px;
+    }
+    .section-deportes3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-deportes4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -387px;
+    }
+    .section-deportes5 {
+        margin-left: 80px;
+        margin-top: 40px; 
+    }
+    .section-deportes6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -382px;  
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 900px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 300px;
+    }
+    .formulario {
+        margin-left: 570px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .menu {
+        width: 999px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 1px;
+        width: 990px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .boton {
+        background: blue;
+        border: 2px solid #2A7AE4;
+        border-radius: 12px;
+        color: white;
+        height: 60px;
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .titulo, .descripcion, .btn {
+        margin-left: 100px;
+    }
+    .btn-vertodo {
+        margin-left: 650px;
+    }
+    .section-starwars1 {
+        margin-left: 80px;
+    }
+    .section-starwars2 {
+        margin-left: 460px;
+    }
+    .section-starwars3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-starwars4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -350px;
+    }
+    .section-starwars5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-starwars6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -355px;   
+    }
+    .section-consolas1 {
+        margin-left: 80px;
+    }
+    .section-consolas2 {
+        margin-left: 460px;
+    }
+    .section-consolas3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-consolas4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;
+    }
+    .section-consolas5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    } 
+    .section-consolas6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;   
+    }
+    .diversos {
+        margin-left: -10px;
+    }
+    .section-diversos1 {
+        margin-left: 80px;
+    }
+    .section-diversos2 {
+        margin-left: 460px;
+    }
+    .section-diversos3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-diversos4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -360px;
+    }
+    .section-diversos5 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .precio_5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+    .-producto_5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .section-diversos6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -373px;   
+    }
+    .precio_6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .-producto_6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .deportes {
+        margin-left: -10px;
+    }
+    .section-deportes1 {
+        margin-left: 80px;
+    }
+    .section-deportes2 {
+        margin-left: 460px;
+    }
+    .section-deportes3 {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .section-deportes4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -387px;
+    }
+    .section-deportes5 {
+        margin-left: 80px;
+        margin-top: 40px; 
+    }
+    .section-deportes6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+        margin-top: -382px;  
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 990px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 300px;
+    }
+    .formulario {
+        margin-left: 650px;
+        width: 200px;
+    }
+}
+
+/* Baja resolución, Tablets (Landscape/Horizontal)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        margin-left: -28px;
+        width: 1000px;
+    }
+    .boton {
+        background: blue;
+        border: 2px solid #2A7AE4;
+        border-radius: 12px;
+        color: white;
+        height: 60px;
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 200px;
+    }
+    .btn-vertodo {
+        margin-left: 700px;
+    }
+    .section-starwars2, .section-starwars5 {
+        flex-direction: row;
+        margin-left: 390px;
+    }
+    .section-starwars3, .section-starwars6 {
+        flex-direction: row;
+        margin-left: 680px; 
+    }
+    .section-consolas2, .section-consolas5 {
+        flex-direction: row;
+        margin-left: 390px;
+    }
+    .section-consolas3, .section-consolas6 {
+        flex-direction: row;
+        margin-left: 680px; 
+    }
+    .section-diversos2, .section-diversos5 {
+        flex-direction: row;
+        margin-left: 390px;
+    }
+    .section-diversos3, .section-diversos6 {
+        flex-direction: row;
+        margin-left: 680px;
+    }
+    .section-deportes2, .section-deportes5 {
+        flex-direction: row;
+        margin-left: 390px;
+    }
+    .section-deportes3, .section-deportes6 {
+        flex-direction: row;
+        margin-left: 680px;
+    }
+    .form {
+        margin-left: -9px;
+        width: 1000px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 320px;
+    }
+    .formulario {
+        margin-left: 600px;
+        width: 200px;
+    }
+}

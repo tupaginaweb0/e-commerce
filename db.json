@@ -1,0 +1,149 @@
+{
+    "producto": [
+      {
+        "name": "Producto XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/star-wars.png",
+        "price": "60,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+
+      {
+        "name": "Producto XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/star-wars2.png",
+        "price": "40,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Producto XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/star-wars3.png",
+        "price": "30,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Producto XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/star-wars4.png",
+        "price": "80,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Producto XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/star-wars5.png",
+        "price": "50,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Producto XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/star-wars6.png",
+        "price": "90,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      { 
+        "name": "Control XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/consolas.png",
+        "price": "340,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      }, 
+      {
+        "name": "Play Station 5",
+        "ImageUrl": "http://127.0.0.1:5500/images/consola2.png",
+        "price": "720,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Consola XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/consola3.png",
+        "price": "100,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Nintendo switch",
+        "ImageUrl": "http://127.0.0.1:5500/images/consola3.png",
+        "price": "400,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      }, 
+      {
+        "name": "Consola XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/consola4.png",
+        "price": "100,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      }, 
+      {
+        "name": "Consola Gameboy",
+        "ImageUrl": "http://127.0.0.1:5500/images/consola2.png",
+        "price": "200,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Camisa Atari",
+        "ImageUrl": "http://127.0.0.1:5500/images/diversos1.png",
+        "price": "100,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Camisa SNES",
+        "ImageUrl": "http://127.0.0.1:5500/images/diversos2.png",
+        "price": "100,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Control y consola XYZ" ,
+        "ImageUrl": "http://127.0.0.1:5500/images/diversos3.png",
+        "price": "50,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      }, 
+      {
+        "name": "Control y consola XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/diversos4.png",
+        "price": "150,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      }, 
+      {
+        "name": "Control y consola XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/diversos5.png",
+        "price": "180,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Producto XYZ",
+        "ImageUrl": "http://127.0.0.1:5500/images/diversos6.png",
+        "price": "40,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Pelota de Qatar 2022",
+        "ImageUrl": "http://127.0.0.1:5500/images/pelota-mundial.png",
+        "price": "500,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Botines de Messi 2022",
+        "ImageUrl": "http://127.0.0.1:5500/images/messi-botines.jpg",
+        "price": "1400,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Mancuernas de entrenamiento",
+        "ImageUrl": "http://127.0.0.1:5500/images/imagen-gym.jpg",
+        "price": "250,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Camiseta de Argentina",
+        "ImageUrl": "http://127.0.0.1:5500/images/camiseta-arg.jpeg",
+        "price": "1400,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Pelota de basket Wilson",
+        "ImageUrl": "http://127.0.0.1:5500/images/pelota-wilson.png",
+        "price": "470,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      },
+      {
+        "name": "Proteina en suplemento",
+        "ImageUrl": "http://127.0.0.1:5500/images/proteina.webp",
+        "price": "70,00",
+        "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis"
+      }
+    ]
+  }

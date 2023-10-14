@@ -1,0 +1,405 @@
+body {
+    background: #EDEDED;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+/*CABECERA - MENÚ */
+.cabecera {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    margin-left: -26px;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.menu_alura {
+    display: flex;
+    background: white;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 70px;
+    margin-top: 10px
+}
+
+.buscar {
+    background: #EDEDED;
+    border: none;
+    border-radius: 22px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    width: 410px;
+}
+
+#search {
+    display: block;
+    height: 40px;
+    color: lightgray;
+    margin-left: -33px;
+    margin-top: 30px;
+    width: 20px;
+}
+
+.iniciar-sesion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.inicio-sesion {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.email, .contraseña {
+    border: none;
+    border-radius: 14px;
+    margin-left: 470px;
+    margin-top: 15px;
+    outline: none;
+    padding: 14px;
+    width: 30%;
+}
+
+.boton {
+    background: #0A3871;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    height: 60px;
+    margin-left: 485px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+.btn_link {
+    color: #EDEDED;
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+}
+
+/* RODAPIE DE CONTACTO - IMAGEN - PÁRRAFOS - FONDO DEL FORMULARIO*/
+.form {
+    background: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    height: 400px;
+    display: inline;
+    margin-bottom: -20px;
+    margin-left: -6px;
+    margin-top: 180px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;   
+}
+
+.form-mensaje {
+    text-align: justify;
+}
+
+.hable-nosotros {
+    display: inline;
+    color: #565658;
+    margin-left: 540px;
+    text-decoration: none;
+}
+
+.img-alurageek {
+    margin-left: 100px;   
+    margin-top: 40px; 
+    width: 190px;
+}
+
+/* RODAPIE DE CONTACTO - FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -245px;
+    padding: 20px;
+}
+
+.enviar-mensaje {
+    color: #565658;;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.nombre {
+    border: none;
+    border-radius: 14px;
+    margin-top: -10px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.mensaje {
+    border: none;
+    border-radius: 14px;
+    margin-top: 25px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.enviar {
+    background: #000000;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 60%;
+}
+
+/* Dispositivos móviles  - MOBILES DE BAJA RESOLUCION*/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+        width: 900px;
+    }
+    .menu_alura {
+        background: white;
+        width: 900px;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .inicio-sesion {
+        align-items: center;
+        width: 240px;
+    }
+    .email, .contraseña {
+        margin-left: 250px;
+        width: 240px;
+    }
+    .boton {
+        background: blue;
+        border: 2px solid #2A7AE4;
+        border-radius: 12px;
+        color: white;
+        height: 60px;
+        margin-left: 250px;
+        margin-top: 20px;
+        width: 240px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 900px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 280px;
+    }
+    .formulario {
+        margin-left: 300px;
+        width: 300px;
+    }
+}
+
+
+/* Dispositivos móviles - MEDIA RESOLUCION Y ALTA RESOLUCION */
+@media screen and (min-width: 320px) and (max-width: 530px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+        width: 990px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .inicio-sesion {
+        align-items: center;
+        width: 240px;
+    }
+    .email, .contraseña {
+        margin-left: 250px;
+        width: 240px;
+    }
+    .boton {
+        background: blue;
+        border: 2px solid #2A7AE4;
+        border-radius: 12px;
+        color: white;
+        height: 60px;
+        margin-left: 250px;
+        margin-top: 20px;
+        width: 240px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 900px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 300px;
+    }
+    .formulario {
+        margin-left: 570px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .menu {
+        width: 999px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 1px;
+        width: 990px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .inicio-sesion {
+        align-items: center;
+    }
+    .email, .contraseña {
+        margin-left: 250px;
+    }
+    .boton {
+        background: blue;
+        border: 2px solid #2A7AE4;
+        border-radius: 12px;
+        color: white;
+        height: 60px;
+        margin-left: 250px;
+        margin-top: 20px;
+        width: 240px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 990px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 250px;
+    }
+    .formulario {
+        margin-left: 500px;
+        width: 200px;
+    }
+}
+
+/* Baja resolución, Tablets (Landscape/Horizontal)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        margin-left: -28px;
+        width: 1000px;
+    }
+    .buscar {
+        width: 250px;
+    }
+    .inicio-sesion {
+        margin-left: -100px;
+    }
+    .email, .contraseña, .boton {
+        margin-left: 300px;
+    }
+    .form {
+        margin-left: -9px;
+        width: 1000px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 240px;
+    }
+    .formulario {
+        margin-left: 500px;
+        width: 200px;
+    }
+}

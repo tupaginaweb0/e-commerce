@@ -1,0 +1,750 @@
+body {
+    background: #EDEDED;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+/*CABECERA - MENÚ */
+.cabecera {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    margin-left: -26px;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.menu_alura {
+    display: flex;
+    background: white;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px
+}
+
+.buscar {
+    background: #EDEDED;
+    border: none;
+    border-radius: 22px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    width: 410px;
+}
+
+#search {
+    display: block;
+    height: 40px;
+    color: lightgray;
+    margin-left: -33px;
+    margin-top: 30px;
+    width: 20px;
+}
+
+/* BOTÓN - AGREGAR PRODUCTOS */
+.btn {
+    background: blue;
+    border: 2px solid #2A7AE4;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    margin-left: 1140px;
+    margin-top: -440px;
+    text-align: center;
+    align-content: center;
+    width: 170px;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+    width: 170px;
+}
+
+/* TODOS LOS PRODUCTOS - TÍTULO */
+.todos-productos {
+    color: lightsalmon;
+}
+
+.titulo {
+    margin-left: 100px;
+    margin-top: 30px
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS1 */
+.deportes1 {
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.deportes-producto1 {
+    color: #000;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.deportes-precio_1 {
+    color: #000;
+    margin-left: 150px;   
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS2 */
+.deportes2 {
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 410px;
+    margin-top: -245px;
+    width: 150px;
+}
+
+.deportes-producto2 {
+    color: #000;
+    margin-left: 380px;
+    margin-top: 10px;
+}
+
+.deportes-precio_2 {
+    color: #000;
+    margin-left: 460px;
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS3 */
+.deportes3 {
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 730px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.deportes-producto3 {
+    color: #000;
+    margin-left: 710px;
+    margin-top: 10px; 
+}
+
+.deportes-precio_3 {
+    color: #000;
+    margin-left: 780px;
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS4 */
+.deportes4 {
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1050px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.deportes-producto4 {
+    color: #000;
+    margin-left: 1020px;
+    margin-top: 10px; 
+}
+
+.deportes-precio_4 {
+    color: #000;
+    margin-left: 1100px;
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS5 */
+.deportes5 {
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 150px;
+}
+
+.deportes-producto5 {
+    color: #000;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.deportes-precio_5 {
+    color: #000;
+    margin-left: 150px;  
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS6*/
+.deportes6 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-left: 400px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.deportes-producto6 {
+    color: #000;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+
+.deportes-precio_6 {
+    color: #000;
+    margin-left: 450px; 
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS7 */
+.deportes7 {
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 730px;
+    margin-top: -240px;
+    width: 180px;
+}
+
+.deportes-producto7 {
+    color: #000;
+    margin-left: 740px;
+    margin-top: 10px; 
+}
+
+.deportes-precio_7 {
+    color: #000;
+    margin-left: 790px;
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN DIVERSOS8 */
+.deportes8 {
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1050px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.deportes-producto8 {
+    color: #000;
+    margin-left: 1050px;
+    margin-top: 10px; 
+}
+
+.deportes-precio_8 {
+    color: #000;
+    margin-left: 1100px;
+}
+
+/* RODAPIE DE CONTACTO - IMAGEN - PÁRRAFOS - FONDO DEL FORMULARIO*/
+.form {
+    background: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    height: 400px;
+    display: inline;
+    margin-bottom: -20px;
+    margin-left: -6px;
+    margin-top: 180px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;   
+}
+
+.form-mensaje {
+    text-align: justify;
+}
+
+.habla-nosotros {
+    color: #565658;
+    margin-left: 215px;
+    text-decoration: none;
+}
+
+.hable-nosotros {
+    color: #565658;
+    margin-left: 540px;
+    text-decoration: none;
+}
+
+.img-alurageek {
+    margin-left: 130px;   
+    margin-top: 40px; 
+    width: 190px;
+}
+
+/* RODAPIE DE CONTACTO - FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -245px;
+    padding: 20px;
+}
+
+.enviar-mensaje {
+    color: #565658;;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.nombre {
+    border: none;
+    border-radius: 14px;
+    margin-top: -10px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.mensaje {
+    border: none;
+    border-radius: 14px;
+    margin-top: 25px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.enviar {
+    background: #000000;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 60%;
+}
+
+/* Dispositivos móviles  - MOBILES DE BAJA RESOLUCION*/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+        width: 760px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+        width: 1100px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 900px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 400px;
+    }
+    .formulario {
+        margin-left: 900px;
+        width: 300px;
+    }
+}
+
+/* Dispositivos móviles - MEDIA RESOLUCION Y ALTA RESOLUCION */
+@media screen and (min-width: 320px) and (max-width: 530px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+        width: 1400px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .deportes2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 330px;
+        margin-top: -270px; 
+    }
+    .deportes-producto2 {
+        margin-left: 360px;
+    }
+    .deportes-precio_2 {
+        margin-left: 380px;
+    }
+    .deportes3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 550px;
+        margin-top: -320px;
+    }
+    .deportes-producto3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 580px;
+    }
+    .deportes-precio_3  {
+        margin-left: 600px;
+    }
+    .deportes4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 780px;
+        margin-top: -300px;
+    }
+    .deportes-producto4 {
+        margin-left: 800px;
+    }
+    .deportes-precio_4  {
+        margin-left: 830px;
+    }
+    .deportes5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .deportes6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 330px;
+        margin-top: -220px; 
+    }
+    .deportes-producto6 {
+        margin-left: 360px;
+    }
+    .deportes-precio_6  {
+        margin-left: 380px;
+    }
+    .deportes7 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 530px;
+        margin-top: -290px; 
+    }
+    .deportes-producto7 {
+        margin-left: 580px;
+    }
+    .deportes-precio_7 {
+        margin-left: 600px;
+    }
+    .deportes8 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 760px;
+        margin-top: -290px;
+    }
+    .deportes-producto8 {
+        margin-left: 790px;
+    }
+    .deportes-precio_8  {
+        margin-left: 810px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -5px;
+        margin-top: 70px;
+        width: 1400px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros {
+        margin-left: 400px;
+    }
+    .hable-con-nosotros {
+        margin-left: 230px;
+    }
+    .formulario {
+        margin-left: 700px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .menu {
+        width: 999px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 1px;
+        width: 1400px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .deportes2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 340px;
+    }
+    .deportes-producto2 {
+        margin-left: 380px;
+    }
+    .deportes-precio_2 {
+        margin-left: 390px;
+    }
+    .deportes3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -330px;
+    }
+    .deportes-producto3 {
+        margin-left: 560px;
+    }
+    .deportes-precio_3 {
+        margin-left: 600px;
+    }
+    .deportes4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -290px;
+    }
+    .deportes-precio_4 {
+        margin-left: 820px;
+    }
+    .deportes5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .deportes6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -220px; 
+    }
+    .deportes7 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -290px; 
+    }
+    .deportes-precio_7  {
+        margin-left: 600px;
+    }
+    .deportes8 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -290px;
+    }
+    .deportes-precio_8 {
+        margin-left: 800px;
+    } 
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 1400px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros {
+        margin-left: 400px;
+    }
+    .hable-con-nosotros {
+        margin-left: 230px;
+    }
+    .formulario {
+        margin-left: 700px;
+        width: 200px;
+    }
+}
+
+/* Baja resolución, Tablets (Landscape/Horizontal)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        margin-left: -28px;
+        width: 1300px;
+    }
+    .menu_alura {
+        width: 1300px;
+    }
+    .deportes1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .deportes2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+    }
+    .deportes-producto2 {
+        margin-left: 330px;
+    }
+    .deportes-precio_2 {
+        margin-left: 410px;
+    }
+    .deportes3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+    }
+    .deportes-producto3 {
+        margin-left: 620px;
+    }
+    .deportes-precio_3  {
+        margin-left: 650px;   
+    }
+    .deportes4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 830px;
+        margin-top: -270px;
+    }
+    .deportes-producto4 {
+        margin-left: 860px;
+    }
+    .deportes-precio_4 {
+        margin-left: 870px;
+    }
+    .deportes-producto5 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .deportes-precio_5 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    .deportes6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+        margin-top: -240px;
+    }
+    .deportes-producto6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    .deportes-precio_6  {
+        display: flex;
+        flex-direction: column;
+        margin-left: 400px;
+        margin-top: 10px;
+    }
+    .deportes7 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 580px;
+    }
+    .deportes-producto7{
+        margin-left: 590px;
+    }
+    .deportes-precio_7  {
+        margin-left: 650px;
+    }
+    .deportes8 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 830px;
+    }
+    .deportes-producto8 {
+        margin-left: 850px;
+    }
+    .deportes-precio_8 {
+        margin-left: 880px;
+    }
+    .form {
+        margin-left: -9px;
+        width: 1300px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-con-nosotros {
+        margin-left: 300px;
+    }
+    .hable-nosotros {
+        margin-left: 330px;
+    }
+    .formulario {
+        margin-left: 650px;
+        width: 200px;
+    }
+}

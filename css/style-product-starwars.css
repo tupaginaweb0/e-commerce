@@ -1,0 +1,551 @@
+body {
+    background: #EDEDED;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+/*CABECERA - MENÚ */
+.cabecera {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    margin-left: -26px;
+    margin-top: -24px;
+    width: 100%;
+}
+
+.menu_alura {
+    display: flex;
+    background: white;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px
+}
+
+.buscar {
+    background: #EDEDED;
+    border: none;
+    border-radius: 22px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    outline: none;
+    width: 410px;
+}
+
+#search {
+    display: block;
+    height: 40px;
+    color: lightgray;
+    margin-left: -33px;
+    margin-top: 30px;
+    width: 20px;
+}
+
+/* TODOS LOS PRODUCTOS - TÍTULO */
+.todos-productos {
+    color: lightsalmon;
+}
+
+.titulo {
+    margin-left: 100px;
+    margin-top: 30px
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN STARWARS1 */
+.star-wars1 {
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 150px; 
+}
+
+.producto1 {
+    color: #000;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.precio1 {
+    color: #000;
+    margin-left: 150px;   
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN STARWARS2 */
+.star-wars2 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-left: 310px;
+    margin-top: -245px;
+    width: 150px;
+}
+
+.producto2 {
+    color: #000;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+.precio2 {
+    color: #000;
+    margin-left: 360px;   
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN STARWARS3 */
+.star-wars3 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-left: 520px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.producto3 {
+    color: #000;
+    margin-left: 520px;
+    margin-top: 10px;
+}
+
+.precio3 {
+    color: #000;
+    margin-left: 570px;   
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN STARWARS4 */
+.star-wars4 {
+    border-radius: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-left:730px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.producto4 {
+    color: #000;
+    margin-left: 730px;
+    margin-top: 10px;
+}
+
+.precio4 {
+    color: #000;
+    margin-left: 780px;   
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN STARWARS5 */
+.star-wars5 {
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-left: 930px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.producto5 {
+    color: #000;
+    margin-left: 930px;
+    margin-top: 10px;
+}
+
+.precio5 {
+    color: #000;
+    margin-left: 980px;   
+}
+
+/* TODOS LOS PRODUCTOS - SECCIÓN STARWARS6 */
+.star-wars6 {
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-left: 1140px;
+    margin-top: -240px;
+    width: 150px;
+}
+
+.producto6 {
+    color: #000;
+    margin-left: 1140px;
+    margin-top: 10px;
+}
+
+.precio6 {
+    color: #000;
+    margin-left: 1190px;   
+}
+
+/* RODAPIE DE CONTACTO - IMAGEN - PÁRRAFOS - FONDO DEL FORMULARIO*/
+.form {
+    background: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    height: 400px;
+    display: inline;
+    margin-bottom: -20px;
+    margin-left: -6px;
+    margin-top: 180px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;   
+}
+
+.form-mensaje {
+    text-align: justify;
+}
+
+.habla-nosotros {
+    color: #565658;
+    margin-left: 215px;
+    text-decoration: none;
+}
+
+.hable-nosotros {
+    color: #565658;
+    margin-left: 540px;
+    text-decoration: none;
+}
+
+.img-alurageek {
+    margin-left: 130px;   
+    margin-top: 40px; 
+    width: 190px;
+}
+
+/* RODAPIE DE CONTACTO - FORMULARIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -245px;
+    padding: 20px;
+}
+
+.enviar-mensaje {
+    color: #565658;;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.nombre {
+    border: none;
+    border-radius: 14px;
+    margin-top: -10px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.mensaje {
+    border: none;
+    border-radius: 14px;
+    margin-top: 25px;
+    padding: 14px;
+    outline: none;
+    width: 60%;
+}
+
+.enviar {
+    background: #000000;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 60%;
+}
+
+/* Dispositivos móviles  - MOBILES DE BAJA RESOLUCION*/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+        width: 760px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+        width: 1100px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 900px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros, .hable-con-nosotros {
+        margin-left: 400px;
+    }
+    .formulario {
+        margin-left: 900px;
+        width: 300px;
+    }
+}
+
+/* Dispositivos móviles - MEDIA RESOLUCION Y ALTA RESOLUCION */
+@media screen and (min-width: 320px) and (max-width: 530px) {
+    .menu {
+        margin-left: -10px;
+        margin-top: -25px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 0px;
+        width: 1400px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .star-wars3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -260px;
+    }
+    .star-wars4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -270px;
+    }
+    .star-wars5 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 900px;
+        margin-top: -274px;
+    }
+    .precio5 {
+        margin-left: 960px;
+    }
+    .star-wars6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1070px;
+        margin-top: -270px; 
+    }
+    .producto6 {
+        margin-left: 1110px;
+    }
+    .precio6 {
+        margin-left: 1130px;
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -5px;
+        margin-top: 70px;
+        width: 1400px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros {
+        margin-left: 400px;
+    }
+    .hable-con-nosotros {
+        margin-left: 230px;
+    }
+    .formulario {
+        margin-left: 700px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .menu {
+        width: 999px;
+    }
+    .menu_alura {
+        background: white;
+        margin-left: 1px;
+        width: 1400px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .buscar {
+        background: #EDEDED;
+        border: none;
+        border-radius: 20px;
+        height: 60px;
+        margin-left: 40px;
+        margin-top: 20px;
+        outline: none;
+        width: 200px;
+    }
+    #search {
+        display: block;
+        height: 40px;
+        color: lightgray;
+        margin-left: -33px;
+        margin-top: 30px;
+        width: 20px;
+    }
+    .star-wars3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -260px;
+    }
+    .star-wars4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -270px;
+    }
+    .star-wars5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -274px;
+    }
+    .star-wars6 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -270px; 
+    }
+    .form {
+        margin-bottom: 0px;
+        margin-left: -10px;
+        margin-top: 70px;
+        width: 1400px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-nosotros {
+        margin-left: 400px;
+    }
+    .hable-con-nosotros {
+        margin-left: 230px;
+    }
+    .formulario {
+        margin-left: 700px;
+        width: 200px;
+    }
+}
+
+/* Baja resolución, Tablets (Landscape/Horizontal)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        margin-left: -28px;
+        width: 1000px;
+    }
+    .menu_alura {
+        width: 990px;
+    }
+    .star-wars5 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .producto5 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .precio5 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    .star-wars6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 340px;
+        margin-top: -240px;
+    }
+    .producto6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 330px;
+        margin-top: 10px;
+    }
+    .precio6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 390px;
+        margin-top: 10px;
+    }
+    .form {
+        margin-left: -9px;
+        width: 1000px;
+    }
+    .img-alurageek {
+        margin-left: 50px;
+    }
+    .hable-con-nosotros {
+        margin-left: 300px;
+    }
+    .hable-nosotros {
+        margin-left: 330px;
+    }
+    .formulario {
+        margin-left: 650px;
+        width: 200px;
+    }
+}
